@@ -15,7 +15,7 @@ class Example(Frame):
 
         canvas = Canvas(self)
             
-        points = [100,500][200,600]
+        points = [100,500]
         canvas.create_polygon(points, outline='#f11', 
             fill='#1f1', width=2)
         
